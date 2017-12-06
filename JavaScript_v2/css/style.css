@@ -1,0 +1,62 @@
+.frame {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f2ebff;
+
+    height: 109px;
+    width: 260px;
+    border: solid #6d7175 1px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #374a5d;
+
+}
+.city,.temperature,.image,.description >p {
+    width: 97px;
+    text-align: center;
+}
+.image >img {
+    margin-left: 15px;
+    height: 52px;
+    width: 52px;
+    opacity: 0.8;
+}
+
+.city, .temperature, .date, .description {
+    padding: 5px 10px 5px 10px;
+
+}
+.temperature {
+    padding-top: 0px;
+
+}
+
+.date {
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+
+}
+.description>p{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.date , .description {
+    font-size: 0.9em;
+}
+.block_left {
+    float: left;
+    width: 45%;
+    height: 100%;
+    /*background:#AAAAAA;*/
+
+}
+.block_right {
+    float:right;
+    width: 55%;
+    height: 100%;
+    /*background:#DDDDDD;*/
+}
